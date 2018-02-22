@@ -1,0 +1,35 @@
+﻿a{text-decoration:none}.loading{position:fixed;left:0;top:0;width:100%;height:100%;background:#fff;z-index:99999}.loadingfa{width:50px;height:50px;line-height:50px;text-align:center;font-size:29px;color:#444;position:absolute;left:50%;margin-top:-25px;margin-left:-25px;top:50%}.animteeh{opacity:.2;transition:all ease 1.5s;-webkit-transition:all ease 1.5s;-moz-transition:all ease 1.5s;-o-transition:all ease 1.5s;transform:translateY(100px);-webkit-transform:translateY(100px);-moz-transform:translateY(100px);-ms-transform:translateY(100px);-o-transform:translateY(100px)}.animteeh.active{opacity:1;transform:translateY(0);-webkit-transform:translateY(0);-moz-transform:translateY(0);-ms-transform:translateY(0);-o-transform:translateY(0)}.animts{opacity:.2;transition:all ease 1.5s;-webkit-transition:all ease 1.5s;-moz-transition:all ease 1.5s;-o-transition:all ease 1.5s;transform:translateY(100px);-webkit-transform:translateY(100px);-moz-transform:translateY(100px);-ms-transform:translateY(100px);-o-transform:translateY(100px)}.active .animts{opacity:1;transform:translateY(0);-webkit-transform:translateY(0);-moz-transform:translateY(0);-ms-transform:translateY(0);-o-transform:translateY(0)}@keyframes rotate{from{-webkit-transform:rotate(0)}to{-webkit-transform:rotate(360deg)}}@-webkit-keyframes rotate{from{-webkit-transform:rotate(0)}to{-webkit-transform:rotate(360deg)}}@-moz-keyframes rotate{from{-moz-transform:rotate(0)}to{-moz-transform:rotate(360deg)}}@-ms-keyframes rotate{from{-ms-transform:rotate(0)}to{-ms-transform:rotate(360deg)}}@-o-keyframes rotate{from{-o-transform:rotate(0)}to{-o-transform:rotate(360deg)}}@keyframes rotate1{from{-webkit-transform:rotate(0)}to{-webkit-transform:rotate(-360deg)}}@-webkit-keyframes rotate1{from{-webkit-transform:rotate(0)}to{-webkit-transform:rotate(-360deg)}}@-moz-keyframes rotate1{from{-moz-transform:rotate(0)}to{-moz-transform:rotate(-360deg)}}@-ms-keyframes rotate1{from{-ms-transform:rotate(0)}to{-ms-transform:rotate(-360deg)}}@-o-keyframes rotate1{from{-o-transform:rotate(0)}to{-o-transform:rotate(-360deg)}}.xuanzhuan{animation:2s linear 0s normal forwards infinite rotate;-webkit-animation:2s linear 0s normal forwards infinite rotate;-moz-animation:2s linear 0s normal forwards infinite rotate;-o-animation:2s linear 0s normal forwards infinite rotate}.xuanzhuan1{animation:5s linear 0s normal forwards infinite rotate;-webkit-animation:5s linear 0s normal forwards infinite rotate;-moz-animation:5s linear 0s normal forwards infinite rotate;-o-animation:5s linear 0s normal forwards infinite rotate}.nizhuan{animation:2s linear 0s normal forwards infinite rotate1;-webkit-animation:2s linear 0s normal forwards infinite rotate1;-moz-animation:2s linear 0s normal forwards infinite rotate1;-o-animation:2s linear 0s normal forwards infinite rotate1}.nizhuan1{animation:3s linear 0s normal forwards infinite rotate1;-webkit-animation:3s linear 0s normal forwards infinite rotate1;-moz-animation:3s linear 0s normal forwards infinite rotate1;-o-animation:3s linear 0s normal forwards infinite rotate1}@keyframes Updown{0%{transform:translateY(30px);-webkit-transform:translateY(30px);-moz-transform:translateY(30px);-ms-transform:translateY(30px);-o-transform:translateY(30px)}100%{transform:translateY(0);-webkit-transform:translateY(0);-moz-transform:translateY(0);-ms-transform:translateY(0);-o-transform:translateY(0)}}.shangxia{animation:1.4s 0s alternate none infinite running Updown}.yaohuan{animation:2.4s 0s alternate none infinite running swing}.yaohuan1{animation:9.4s 0s alternate none infinite running swing}.flash{animation:2.4s 0s alternate none infinite running flash}.wobble{animation:20.4s 0s alternate none infinite running wobble}.dtable{display:table;width:100%;height:100%}.dcell{display:table-cell;vertical-align:middle}.shangxia1{animation:2.4s 0s alternate none infinite running Updown}.shangxia2{animation:2.9s 0s alternate none infinite running Updown}.shangxia3{animation:3.4s 0s alternate none infinite running Updown}.shangxia4{animation:2.5s 0s alternate none infinite running Updown}.shangxia5{animation:3.3s 0s alternate none infinite running Updown}.shangxia6{animation:2.4s 0s alternate none infinite running Updown}.shangxia7{animation:2.6s 0s alternate none infinite running Updown}.df{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.dc{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.flex1{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1}.ac{-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.as{-webkit-box-align:justify;-webkit-align-items:space-between;-ms-flex-align:justify;align-items:space-between}.ae{-webkit-box-align:end;-webkit-align-items:flex-end;-ms-flex-align:end;align-items:flex-end}.jc{-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}.js{-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}.je{-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end}.fww{-webkit-flex-wrap:wrap;-moz-flex-wrap:wrap;-ms-flex-wrap:wrap;-o-flex-wrap:wrap;flex-wrap:wrap}body{height:100vh}
+
+body{
+  height:100vh;
+ 
+}
+#innerbox{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.content{
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow-y: auto;
+  max-height:100%;
+  overflow-scrolling : touch;
+  -webkit-overflow-scrolling : touch;
+  -moz-overflow-scrolling : touch;
+  -ms-overflow-scrolling : touch;
+  -o-overflow-scrolling : touch;
+}
+.header{
+
+}
+.bottom{
+
+}
